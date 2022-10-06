@@ -1,1 +1,1 @@
-# CS178-Project-Sizzle
+# CS178-MeTime-iOS-Application
