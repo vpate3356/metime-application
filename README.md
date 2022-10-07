@@ -14,13 +14,13 @@ Karanvir Chima, Siraaj Kudtarkar, Vraj Patel, Ethan Wan
 * ICS file format (for calendar) 
 * Figma (UX/UI Design)
 
-## Daily Meeting Schedule: 
+## Daily Meeting Schedule
 M-F: 8PM 
 
-## Vision For End of Quarter: 
+## Vision For End of Quarter
 * Develop the importability of digital calendar onto application and finding a 30-min to 1 hour block of free time
 * On-boarding process for the user by asking for current and potential interests
 * Creating a system to find suggested activities based on these interests
 
-## Final Vision: 
+## Final Vision
 Create basic prototype with functionality to import calendar, onboard the user, and find MeTime in the user’s schedule to suggest activities in the area
