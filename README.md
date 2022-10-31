@@ -7,12 +7,12 @@ The main purpose of the MeTime application is to allow people to explore new int
 Karanvir Chima, Siraaj Kudtarkar, Vraj Patel, Ethan Wan
 
 ## Tools
-<!-- * Swift 
+<!-- * Python
 * Kotlin Multiplatform (share common logic) 
 * SwiftUI XCode (IDE)  -->
-* React VS Code (IDE)
+* React in VS Code (IDE)
 * MVI (design pattern) 
-* ICS file format (for calendar) 
+* Google Calendar API and ICS file format
 * Figma (UX/UI Design)
 
 ## Daily Meeting Schedule
