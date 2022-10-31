@@ -8,6 +8,7 @@ Karanvir Chima, Siraaj Kudtarkar, Vraj Patel, Ethan Wan
 
 ## Tools
 <!-- * Python
+* Python
 * Kotlin Multiplatform (share common logic) 
 * SwiftUI XCode (IDE)  -->
 * React in VS Code (IDE)
