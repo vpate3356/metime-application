@@ -1,9 +1,8 @@
 ## create user (ID, email, password) and add info to users.csv
-## Starting questionaire, record user answers into users.csv
+# ## Starting questionaire, record user answers into users.csv
 
 import csv
 import re
-
 regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'   # used for email validation
 
 def user_creation(userInfo): 
@@ -29,11 +28,6 @@ def user_creation(userInfo):
     # with open('user.csv', 'w') as file:
     #    writer = csv.writer(file)
     #    writer.writerow(userInfo)
-
-
-    
-
-
 
 def write_to_users(userInfo):
     field_names = ['email', 'ID', 'password']
