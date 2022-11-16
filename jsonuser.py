@@ -20,7 +20,12 @@ def user_creation(userInfo):
             userInfo.update({"ID": user1})
             password1 = input("Enter your password: \n")
             userInfo.update({"password": password1})
-            print(userInfo)
+            interest1 = input("Out of Music,Art,and Sports Please select your 1ST favorite activity: \n")
+            userInfo.update({"interest1": interest1})
+            interest2 = input("Out of Music,Art,and Sports Please select your 2ND favorite activity: \n")
+            userInfo.update({"interest2": interest2})
+            interest3 = input("Out of Music,Art,and Sports Please select your 3RD favorite activity: \n")
+            userInfo.update({"interest3": interest3})
             write_to_users(userInfo)
             break
 
@@ -28,6 +33,9 @@ def user_creation(userInfo):
 def write_to_users(userInfo):
     try:
         print(userInfo)
+        allInfo = dict
+        allInfo.update(userInfo)
+        print(allInfo)
         with open("users.json", 'a') as outfile:
             json.dump(userInfo, outfile, indent=2)
     except IOError:
@@ -35,6 +43,6 @@ def write_to_users(userInfo):
  
 
 
-userInfo = dict({"email": "Email", "ID": "User", "password": "Password"})
+userInfo = dict({"email": "Email", "ID": "User", "password": "Password", "interest1": "INT1", "interest2": "INT2", "interest3": "INT3" })
 for i in range(2):  
     user_creation(userInfo)
