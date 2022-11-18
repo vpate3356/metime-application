@@ -1,0 +1,16 @@
+{
+  "email": "vp@gmail.com",
+  "ID": "vp",
+  "password": "bapa"
+}{
+  "email": "vk@gmail.com",
+  "ID": "dk",
+  "password": "dk"
+}{
+  "email": "ethan@gmail.com",
+  "ID": "ethanol",
+  "password": "12345",
+  "sportsInterest": 2,
+  "artInterest": 3,
+  "entertainmentInterest": 0
+}
