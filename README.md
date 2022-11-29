@@ -22,6 +22,7 @@ M-F: 9:00 PM
 * Develop the importability of digital calendar onto application and finding a 30-min to 1 hour block of free time
 * On-boarding process for the user by asking for current and potential interests
 * Creating a system to find suggested activities based on these interests
+* Create a fully detailed UX/UI design for the entire MeTime application using Figma. 
 
 ## Final Vision
 Create basic prototype with functionality to import calendar, onboard the user, and find MeTime in the user’s schedule to suggest activities in the area
