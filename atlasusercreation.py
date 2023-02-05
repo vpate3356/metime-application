@@ -6,11 +6,11 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 #connecting to Atlas DB
-client = pymongo.MongoClient(mongodb+srv://vrajp00:<password>@metimeapp.kjhpdea.mongodb.net/test)
+client = pymongo.MongoClient("mongodb+srv://vrajp00:bapa3356@metimeapp.kjhpdea.mongodb.net/?retryWrites=true&w=majority")
 db = client['test']
 collection = db['users']
 
-@app.route("/")
+@app.route("/")s
 def index():
     return render_template("index.html")
 
