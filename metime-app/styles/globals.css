@@ -4,19 +4,19 @@
   --font-mono: ui-monospace, 'Josefin Sans', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 128, 185, 150;
+  --background-start-rgb: 201, 181, 153;
   --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #D4A561 0deg,
-    #d2ab75 55deg,
-    #cfb896 120deg,
-    #cec5b8 160deg,
+    #d2b182 55deg,
+    #cdb99d 120deg,
+    #d2c6b7 160deg,
     transparent 360deg
   );
   --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
+    rgb(253, 255, 254),
     rgba(255, 255, 255, 0)
   );
 

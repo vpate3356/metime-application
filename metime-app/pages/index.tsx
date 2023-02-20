@@ -56,7 +56,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              About Us <span>-&gt;</span>
+              About Us 
             </h2>
             <p className={inter.className}>
               Learn more about our company values and history.
@@ -70,7 +70,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              My Google Calendar <span>-&gt;</span>&nbsp;
+              My Google Calendar 
             </h2>
             <p className={inter.className}>
               Here is your current schedule.&nbsp;
@@ -84,7 +84,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Create Account <span>-&gt;</span>
+              Create Account 
             </h2>
             <p className={inter.className}>
               Join the MeTime commmunity by clicking here!&nbsp;
@@ -98,7 +98,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Log In <span>-&gt;</span>
+              Log In 
             </h2>
             <p className={inter.className}>
               If you are already an existing user, click here to see your MeTime activities!
