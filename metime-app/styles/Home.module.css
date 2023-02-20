@@ -67,7 +67,7 @@
 .card p {
   margin: 0;
   opacity: 0.6;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   max-width: 30ch;
 }
@@ -257,14 +257,14 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   .vercelLogo {
-    filter: invert(1);
+    /* filter: invert(1); */
   }
 
   .logo,
   .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    /* filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70); */
   }
 }
 

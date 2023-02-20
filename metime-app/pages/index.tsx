@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Josefin_Sans({ subsets: ['latin'] })
 
-export default function Home() {
+export default function AboutUs() {
   return (
     <>
       <Head>
@@ -18,14 +18,14 @@ export default function Home() {
         {/* <div className={styles.description}> */}
           <p>
           </p>
-          <div>
+          {/* <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
             >
             </a>
-          </div>
+          </div> */}
         {/* </div> */}
 
         <div className={styles.center}>
@@ -37,20 +37,12 @@ export default function Home() {
             height={500}
             priority
           />
-          {/* <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div> */}
         </div>
+
 
         <div className={styles.grid}>
           <a
-            href="https://calendar.google.com/calendar/u/0/r"
+            href="/about"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +51,7 @@ export default function Home() {
               About Us 
             </h2>
             <p className={inter.className}>
-              Learn more about our company values and history.
+              Learn more about our company, values, and history.
             </p>
           </a>
 
@@ -70,15 +62,15 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              My Google Calendar 
+              My Calendar 
             </h2>
             <p className={inter.className}>
-              Here is your current schedule.&nbsp;
+              View your current schedule.&nbsp;
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/createaccount"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +84,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/login"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

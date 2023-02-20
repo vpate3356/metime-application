@@ -7,7 +7,7 @@
   --background-start-rgb: 201, 181, 153;
   --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
+  /* --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #D4A561 0deg,
     #d2b182 55deg,
@@ -18,7 +18,7 @@
   --secondary-glow: radial-gradient(
     rgb(253, 255, 254),
     rgba(255, 255, 255, 0)
-  );
+  ); */
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
@@ -98,8 +98,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
-}
+}   */
