@@ -40,13 +40,25 @@ export default function AboutUs() {
           />
         </div> */}
 
+
 <div className={styles.center}>
         <h1 className={inter.className}>
               About MeTime
             </h1>
         </div>
 
-        <div className={styles.grid}>
+        <div className={styles.center}>
+          <Image
+            className={styles.logo}
+            src="/Group.svg"
+            alt="Next.js Logo"
+            width={400}
+            height={400}
+            priority
+          />
+        </div>
+
+        <div className={styles.grid1}>
           <a
             className={styles.card}
             target="_blank"
