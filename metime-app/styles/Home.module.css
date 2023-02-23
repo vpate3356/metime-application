@@ -153,6 +153,32 @@
   z-index: -1;
 }
 
+/* adding team page stuff here */
+.wrapper {
+  margin-top: 60px;
+  text-align: center;
+}
+.wrapper h1 {
+  font-family: var(--font-mono);
+  font-size: 48px;
+  color : lightblue
+}
+
+.ourTeam{
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.member{
+  width: 250px;
+  margin: 5px;
+}
+
+.member h3 {
+  text-transform: uppercase;
+}
+
 /* Conic Gradient Animation */
 .thirteen::before {
   animation: 6s rotate linear infinite;

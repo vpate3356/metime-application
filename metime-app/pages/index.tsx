@@ -15,18 +15,6 @@ export default function AboutUs() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/* <div className={styles.description}> */}
-          <p>
-          </p>
-          {/* <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            </a>
-          </div> */}
-        {/* </div> */}
 
         <div className={styles.center}>
           <Image
