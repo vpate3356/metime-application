@@ -56,6 +56,20 @@ export default function AboutUs() {
           </a>
 
           <a
+            href="/team"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              The Team
+            </h2>
+            <p className={inter.className}>
+              The minds behind MeTime.
+            </p>
+          </a>
+
+          <a
             href="https://calendar.google.com/calendar/u/0/r"
             className={styles.card}
             target="_blank"
