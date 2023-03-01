@@ -10,7 +10,7 @@ Karanvir Chima, Siraaj Kudtarkar, Vraj Patel, Ethan Wan
 * Python, Pymongo, and MongoDB (for backend development and database system)
 * Next.JS (React), HTML, CSS in VS Code (for front end design and IDE)
 * MVI (design pattern) 
-* Google Calendar API
+* Google Calendar and Google Maps API (for adding time block into calendar and finding nearby activities)
 * Figma (UX/UI Design)
 
 ## Daily Meeting Schedule
