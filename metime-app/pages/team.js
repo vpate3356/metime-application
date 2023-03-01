@@ -25,7 +25,7 @@ export default function AboutUs() {
                         height={225}
                         priority
                     />
-                    <h3>Vdawg</h3>
+                    <h3>Vraj</h3>
                     <p>vpate048@ucr.edu</p>
                     <p>SID: 862136991</p>
                 </div>
@@ -38,7 +38,7 @@ export default function AboutUs() {
                         height={225}
                         priority
                     />
-                    <h3>The Chimster</h3>
+                    <h3>Chima</h3>
                     <p>@ucr.edu</p>
                     <p>SID: </p>
                 </div>
@@ -51,7 +51,7 @@ export default function AboutUs() {
                         height={225}
                         priority
                     />
-                    <h3>Sexy Siraaj </h3>
+                    <h3>Siraaj </h3>
                     <p>@ucr.edu</p>
                     <p>SID: </p>
                 </div>
