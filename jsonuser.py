@@ -23,6 +23,8 @@ def user_creation(userInfo):
             userInfo.update({"ID": user1})
             password1 = input("Enter your password: \n")
             userInfo.update({"password": password1})
+            userAddress = input("Enter your address in this format: {house number} {street} {city} {state initials} {zip} if USA, otherwise follow local address format")
+            userInfo.update({"address": userAddress}) # example: '3637 Canyon Crest Dr Riverside, CA 92507'
             inputVal = input("Do you like sports Y/N?: \n")
             if inputVal == "Y" or inputVal == "y":
                 sp = sp + 1
@@ -64,6 +66,6 @@ def write_to_users(userInfo):
  
 
 
-userInfo = dict({"email": "Email", "ID": "User", "password": "Password", "sportsInterest": 0, "artInterest": 0, "entertainmentInterest": 0})
+userInfo = dict({"email": "Email", "ID": "User", "password": "Password", "address": "Address", "sportsInterest": 0, "artInterest": 0, "entertainmentInterest": 0})
 for i in range(2):  
     user_creation(userInfo)
