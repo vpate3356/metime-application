@@ -10,7 +10,7 @@ client = pymongo.MongoClient("mongodb+srv://vrajp00:bapa3356@metimeapp.kjhpdea.m
 db = client['test']
 collection = db['users']
 
-@app.route("/")s
+@app.route("/")
 def index():
     return render_template("index.html")
 
