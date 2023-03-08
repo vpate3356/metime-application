@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/team.js", "pages/api/auth/[...nextauth].js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/team.js", "pages/api/auth/[...nextauth].js", "pages/api/auth/lib/mongodb.js", "pages/api/auth/lib/mongo.js"],
   "exclude": ["node_modules"]
 }
