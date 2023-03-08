@@ -72,7 +72,7 @@ export default function AboutUs() {
           </a>
 
           <a
-            href="/createaccount"
+            href="/survey"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
