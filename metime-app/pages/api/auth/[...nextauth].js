@@ -13,3 +13,41 @@ export default NextAuth({
     ],
         secret: process.env.NEXTAUTH_SECRET
 });
+
+// callbacks: {
+//     async function signIn(user, account, profile) {
+//       try {
+//         await mongoClient.connect();
+
+//         const db = mongoClient.db(process.env.MONGODB_DB);
+//         const collection = db.collection('users');
+
+//         const existingUser = await collection.findOne({ email: user.email });
+
+//         if (existingUser) {
+//           // User already exists, update any attributes here if needed
+//         } else {
+//           // User does not exist, create a new user document
+//           const newUser = {
+//             email: user.email,
+//             name: user.name,
+//             picture: user.image,
+//             // add more attributes here if needed
+//           };
+
+//           const result = await collection.insertOne(newUser);
+//           console.log(`Created new user with id ${result.insertedId}`);
+//         }
+
+//         await mongoClient.close();
+//       } catch (err) {
+//         console.log(err);
+//       }
+
+//       return true;
+//     };
+// }
+
+// pages: {
+//     newUser : '/survey'
+// }

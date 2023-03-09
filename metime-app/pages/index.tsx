@@ -78,10 +78,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Create Account 
+              My Survey 
             </h2>
             <p className={inter.className}>
-              Join the MeTime commmunity by clicking here!&nbsp;
+              See which activities you can spend your MeTime doing!&nbsp;
             </p>
           </a>
 
