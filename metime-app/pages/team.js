@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import ProfilePic from '../images/profilepic.png'
+import VrajPFP from '../images/VrajPFP.JPG'
 import { Josefin_Sans } from '@next/font/google'
 
 const inter = Josefin_Sans({ subsets: ['latin'] })
@@ -16,19 +17,20 @@ export default function AboutUs() {
       <main className={inter.main}>
 
         < div className={inter.wrapper}>
-            <h1>Our Team</h1>
+            <h1><center> Our Team </center></h1>
             <div className={styles.ourTeam}>
                 
                 <div className={inter.member}>
                     <Image
-                        src= {ProfilePic}
-                        alt="Brief Logo"
+                        src= {VrajPFP}
+                        alt="profilepic.jpg"
                         width={250}
                         height={325}
                         priority
                     />
-                    <h3>Vraj</h3>
+                    <h3>Vraj Patel</h3>
                     <p>vpate048@ucr.edu</p>
+                    <p>CSBA</p>
                 </div>
 
                 <div className={inter.member}>
