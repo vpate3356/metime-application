@@ -35,7 +35,7 @@ export default function AboutUs() {
 
                 <div className={inter.member}>
                     <Image
-                        src= {ProfilePic}
+                        src= {'/chima.png'}
                         alt="Brief Logo"
                         width={250}
                         height={325}
