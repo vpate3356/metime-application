@@ -4,14 +4,14 @@ import clientPromise from './auth/lib/mongodb'
 const handler = nc()
 
 handler.post(async (req, res) => {
-  const { location, interests  } = req.body
+  const {address, latitude, longitude, radius, interests} = req.body
 
   try {
     const client = await clientPromise
     const db = client.db('UserData')
     const collection = db.collection('Onboarding')
 
-    await db.collection('Onboarding').insertOne({ location, interests })
+    await db.collection('Onboarding').insertOne({ address, latitude, longitude, radius, interests})
 
     res.json({ message: 'success' })
   } catch (error) {
