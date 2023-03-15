@@ -19,7 +19,7 @@ export default function AboutUs() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/MeTime Logo.svg"
+            src="/metimeman.svg"
             alt="Next.js Logo"
             width={500}
             height={500}
@@ -36,10 +36,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              About Us 
+              MeTime Block  
             </h2>
             <p className={inter.className}>
-              Learn more about our company, values, and history.
+              View available time in your calendar for MeTime.
             </p>
           </a>
 
@@ -50,10 +50,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              The Team
+              Suggested Activities
             </h2>
             <p className={inter.className}>
-              The minds behind MeTime.
+              View suggested activites nearby that correlate with your interests. 
             </p>
           </a>
 
@@ -78,24 +78,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Create Account 
+              Add Activities to Calendar 
             </h2>
             <p className={inter.className}>
-              Join the MeTime commmunity by clicking here!&nbsp;
-            </p>
-          </a>
-
-          <a
-            href="/userpage"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              User Signed IN HOME PAGE
-            </h2>
-            <p className={inter.className}>
-              After the user signs in they will see this page!&nbsp;
+              Add suggested actitivties to your calendar!&nbsp;
             </p>
           </a>
 
@@ -106,10 +92,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Log In 
+              Log Out  
             </h2>
             <p className={inter.className}>
-              If you are already an existing user, click here to see your MeTime activities!
+              Log out of your account!
             </p>
           </a>
         </div>
