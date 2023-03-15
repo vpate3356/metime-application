@@ -19,7 +19,7 @@ const SurveyPage = () => {
 
   const handleSetRadius = (event) => {
     const value = event.target.value;
-    if (value === '' || (parseInt(value) >= 1 && parseInt(value) <= 30)) {
+    if (value === '' || (parseInt(value) >= 1 && parseInt(value) <= 50000)) {
       setRadius(value);
     }
   };
@@ -108,7 +108,7 @@ const SurveyPage = () => {
             <label style={styles.label} htmlFor="address">Enter a address in the following format (123 Happy Dr, Riverside,CA 92507):</label>
             <br />
             <input style={styles.input} type="text" id="address" value={address} onChange={handleAddressChange} />
-            <label style={styles.label} htmlFor="radius">Please enter how big of a radius you want in miles? (max 30 miles):</label>
+            <label style={styles.label} htmlFor="radius">Please enter how big of a radius you want in meters? (max 50,000 meters):</label>
             <br />    
             <input style={styles.input} type="text" id="radius" value={radius} onChange={handleSetRadius} />
 
