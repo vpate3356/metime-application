@@ -17,12 +17,17 @@ export default function Login() {
         <title>MeTime Web App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <p className={inter.className} style={{fontSize: '24px', marginTop: '20px'}}>
-          Welcome, {session.user?.name} to Your MeTime!
-        </p>
-        {/* <button onClick={()=> signOut()}>Sign Out</button> */}
-      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+  {session && session.user?.image && (
+    <>
+      <img src={session.user?.image} alt="Profile" style={{ borderRadius: '50%', marginLeft: '10px', marginTop: '5px', marginRight: '30px', width: '50px', height: '50px' }} />
+      <p className={inter.className} style={{ fontSize: '24px', marginTop: '20px' }}>
+        Welcome, {session.user?.name} to Your MeTime!
+      </p>
+    </>
+  )}
+</div>
+
       <main className={styles.main}>
 
       <div className={styles.center}>
