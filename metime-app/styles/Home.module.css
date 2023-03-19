@@ -7,6 +7,14 @@
   min-height: 100vh;
 }
 
+.griddy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

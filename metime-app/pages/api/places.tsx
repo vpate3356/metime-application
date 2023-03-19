@@ -14,7 +14,7 @@ export const getPlaces = async () =>{
         .collection('PlacesNearby')
         .find({})
         .limit(5)
-        .map(user =>({...user, _id: user._id.toString()}))
+        .map((user: { _id: { toString: () => any; }; }) =>({...user, _id: user._id.toString()}))
         .toArray();
     return JSON.parse(JSON.stringify(data));
 }

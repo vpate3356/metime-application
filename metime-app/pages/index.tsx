@@ -28,7 +28,7 @@ export default function AboutUs() {
         </div>
 
 
-        <div className={styles.grid}>
+        <div className={styles.griddy}>
           <a
             href="/about"
             className={styles.card}
@@ -53,49 +53,7 @@ export default function AboutUs() {
               The Team
             </h2>
             <p className={inter.className}>
-              The minds behind MeTime.
-            </p>
-          </a>
-
-          <a
-            href="https://calendar.google.com/calendar/u/0/r"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              My Calendar 
-            </h2>
-            <p className={inter.className}>
-              View your current schedule.&nbsp;
-            </p>
-          </a>
-
-          <a
-            href="/survey"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              My Survey 
-            </h2>
-            <p className={inter.className}>
-              See which activities you can spend your MeTime doing!&nbsp;
-            </p>
-          </a>
-
-          <a
-            href="/userpage"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              User Signed IN HOME PAGE
-            </h2>
-            <p className={inter.className}>
-              After the user signs in they will see this page!&nbsp;
+              Meet the minds behind MeTime.
             </p>
           </a>
 
@@ -106,10 +64,10 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Log In 
+              Log In / Get Started ! 
             </h2>
             <p className={inter.className}>
-              If you are already an existing user, click here to see your MeTime activities!
+              If you are a new or returning, click here to continue! 
             </p>
           </a>
         </div>
