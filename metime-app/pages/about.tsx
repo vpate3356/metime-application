@@ -45,8 +45,8 @@ export default function AboutUs() {
 <p className={inter.className}>“79% of employees had experienced work-related stress… Nearly 3 in 5 employees reported negative impacts of <strong>work-related stress, </strong>including <strong>lack of interest, </strong> motivation, or <strong> energy, </strong>and <strong>lack of effort </strong>at work.”<sup>1</sup></p>
 <p className={inter.className}>“Among all respondents, 80% believe <strong>COVID-19 has impacted workplace burnout.”</strong><sup>2</sup></p>
 <p className={inter.className}>In addition to this we found that another issue that is arising is work life balance and finding time to find new interests and hobbies. </p>
-<p className={inter.className}>“Mental health benefits of hobbies: <strong>Reduced stress, </strong>enhanced well-being, improved social connection, <strong>decreases in depression and anxiety, </strong>and <strong>improved mental health.”</strong><sup>3</sup>
-<p>Source(s): (APA 2021, Work and Well-being Survey of 1,501 U.S. adult workers)<sup>1</sup> | (Forbes, 2021)<sup>2</sup> | (Utah State University, 2021)<sup>3</sup></p>
+<p className={inter.className}>“Mental health benefits of hobbies: <strong>Reduced stress, </strong>enhanced well-being, improved social connection, <strong>decreases in depression and anxiety, </strong>and <strong>improved mental health.”</strong><sup>3</sup> </p>
+<p>Source(s): (APA 2021, Work and Well-being Survey of 1,501 U.S. adult workers)<sup>1</sup> | (Forbes, 2021)<sup>2</sup> | (Utah State University, 2021)<sup>3</sup>
             </p>
           </a>
 
