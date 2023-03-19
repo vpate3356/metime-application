@@ -12,17 +12,117 @@ export default function Login() {
 
   if (session) {
     return (
-    <div>
-      <p>Welcome, {session.user?.name} to MeTime!</p>
-      <button onClick={()=> signOut()}>Sign Out</button>
-    </div>
+      <>
+      <Head>
+        <title>MeTime Web App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <p className={inter.className} style={{fontSize: '24px', marginTop: '20px'}}>
+          Welcome, {session.user?.name} to Your MeTime!
+        </p>
+        {/* <button onClick={()=> signOut()}>Sign Out</button> */}
+      </div>
+      <main className={styles.main}>
+
+      <div className={styles.center}>
+        <Image
+          className={styles.logo}
+          src="/metimeman.svg"
+          alt="Next.js Logo"
+          width={500}
+          height={500}
+          priority
+        />
+      </div>
+
+
+  <div className={styles.grid}>
+    <a
+      href="/about"
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        MeTime Block  
+      </h2>
+      <p className={inter.className}>
+        View available time in your calendar for MeTime.
+      </p>
+    </a>
+
+    <a
+      href="/placesclose"
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        Suggested Activities
+      </h2>
+      <p className={inter.className}>
+        View suggested activites nearby that correlate with your interests. 
+      </p>
+    </a>
+
+    <a
+      href="https://calendar.google.com/calendar/u/0/r"
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        My Calendar 
+      </h2>
+      <p className={inter.className}>
+        View your current schedule.&nbsp;
+      </p>
+    </a>
+
+    <a
+      href="/survey"
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        Change your Interests
+      </h2>
+      <p className={inter.className}>
+        Edit your location & interests here
+      </p>
+    </a>
+
+    <a
+      onClick={()=> signOut()}
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        Log Out  
+      </h2>
+      <p className={inter.className}>
+        Log out of your account!
+      </p>
+    </a>
+  </div>
+</main>
+    </>
     );
   } else {
     return (
-      <div>
-        <p>You are not logged into MeTime</p>
-        <button onClick={()=> signIn()}>Sign In With Google</button>
-      </div>
+      <>
+      <Head>
+          <title>MeTime Web App</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <div>
+          <p>You are not logged into MeTime</p>
+          <button onClick={()=> signIn()}>Sign In With Google</button>
+        </div>
+      </>
     );
   }
 }
