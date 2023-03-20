@@ -64,7 +64,7 @@ export default function AboutUs() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Log In / Get Started ! 
+              MeTime Portal
             </h2>
             <p className={inter.className}>
               If you are a new or returning, click here to continue! 

@@ -4,6 +4,7 @@ import { Josefin_Sans } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import React from 'react'
 import {useSession, signIn, signOut} from 'next-auth/react'
+import ApiCalendar from "react-google-calendar-api";
 
 const inter = Josefin_Sans({ subsets: ['latin'] })
 
@@ -44,7 +45,7 @@ export default function Login() {
 
   <div className={styles.grid}>
     <a
-      href="/about"
+      href="/metimeblock"
       className={styles.card}
       target="_blank"
       rel="noopener noreferrer"
