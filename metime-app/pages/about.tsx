@@ -31,7 +31,7 @@ export default function AboutUs() {
           />
         </div>
 
-        <div className={styles.griddy}>
+        <div className={styles.griddy1}>
           <a
             className={styles.card}
             target="_blank"

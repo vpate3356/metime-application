@@ -15,6 +15,12 @@
   text-align: left;
 }
 
+.griddy1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -323,6 +329,23 @@
   .thirteen img {
     /* filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70); */
   }
+}
+
+.button {
+  background-color:black ;
+  border: 1px solid #1097da;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1c99d7;;
 }
 
 @keyframes rotate {
