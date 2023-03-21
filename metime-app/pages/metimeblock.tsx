@@ -86,9 +86,9 @@ const MeTimeBlock = () => {
   return (
     <div>
       <div style={{ padding: "0.5em" }}>
-        <button onClick={(e) => handleItemClick(e, "sign-in")}>sign-in</button>
-        <button onClick={(e) => handleItemClick(e, "sign-out")}>
-          sign-out
+        <button onClick={(e) => handleItemClick(e, "Allow Calendar Access")}>Allow Calendar Access</button>
+        <button onClick={(e) => handleItemClick(e, "Switch User")}>
+          Switch User
         </button>
       </div>
       <div style={{ padding: "0.5em" }}>
@@ -121,58 +121,9 @@ const MeTimeBlock = () => {
               });
           }}
         >
-          Create Event from now
+          Create MeTime Block
         </button>
       </div>
-      <div style={{ padding: "0.5em" }}>
-        <button
-          onClick={(e) => {
-            apiCalendar.listUpcomingEvents(10).then(({ result }: any) => {
-              console.log(result.items);
-              setEvents(result.items);
-            });
-          }}
-        >
-          List upcoming events
-        </button>
-        <div>
-          <h4>Events</h4>
-          {events.length === 0 && <p>No events to show</p>}
-          {events.map((event) => (
-            <p key={event}>{JSON.stringify(event)}</p>
-          ))}
-        </div>
-      </div>
-      <div style={{ padding: "0.5em" }}>
-        <button
-          onClick={(e) => {
-            apiCalendar.listCalendars().then(({ result }: any) => {
-              console.log(result.items);
-              setCalendars(result.items);
-            });
-          }}
-        >
-          List calendars
-        </button>
-        <div>
-          <h4>Calendars</h4>
-          {calendars.length === 0 && <p>No calendars to show</p>}
-          {calendars.map((calendar) => (
-            <p key={calendar}>{JSON.stringify(calendar)}</p>
-          ))}
-        </div>
-      </div>
-      <div style={{ padding: "0.5em" }}>
-        <button
-          onClick={(e) => {
-            apiCalendar.createCalendar("myCalendar2").then(({ result }: any) => {
-              console.log(result);
-            });
-          }}
-        >
-          Create calendar
-        </button>
-       </div>
     </div>
   );
 }
