@@ -39,7 +39,7 @@ export default function AboutUs() {
               About Us 
             </h2>
             <p className={inter.className}>
-              Learn more about our company, values, and history.
+              Learn more about our project, values, and history.
             </p>
           </a>
 
