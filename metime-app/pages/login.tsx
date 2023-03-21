@@ -43,7 +43,21 @@ export default function Login() {
       </div>
 
 
-  <div className={styles.grid}>
+  <div className={styles.griddy}>
+    <a
+      href="/survey"
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2 className={inter.className}>
+        Select Interests 
+      </h2>
+      <p className={inter.className}>
+        Input your location & interests here.
+      </p>
+    </a>
+
     <a
       href="/metimeblock"
       className={styles.card}
@@ -51,24 +65,10 @@ export default function Login() {
       rel="noopener noreferrer"
     >
       <h2 className={inter.className}>
-        MeTime Block  
+        MeTime Block
       </h2>
       <p className={inter.className}>
-        View available time in your calendar for MeTime.
-      </p>
-    </a>
-
-    <a
-      href="/placesclose"
-      className={styles.card}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <h2 className={inter.className}>
-        Suggested Activities
-      </h2>
-      <p className={inter.className}>
-        View suggested activites nearby that correlate with your interests. 
+      Create your MeTime Block for the day. 
       </p>
     </a>
 
@@ -85,21 +85,6 @@ export default function Login() {
         View your current schedule.&nbsp;
       </p>
     </a>
-
-    <a
-      href="/survey"
-      className={styles.card}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <h2 className={inter.className}>
-        Change your Interests
-      </h2>
-      <p className={inter.className}>
-        Edit your location & interests here
-      </p>
-    </a>
-
     <a
       onClick={()=> signOut()}
       className={styles.card}
