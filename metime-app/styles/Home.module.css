@@ -15,6 +15,13 @@
   text-align: left;
 }
 
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .griddy1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -368,13 +375,15 @@
   background-color:black ;
   border: 1px solid #80B996;
   color: white;
-  padding: 24px 48px;
+  padding: 48px 96px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 25rem;
+
 }
 
 .button:hover {
