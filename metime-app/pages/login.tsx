@@ -125,7 +125,7 @@ export default function Login() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <p>You are not logged into MeTime</p>
+          
           <button onClick={()=> signIn()} className={styles.button}>Sign In With Google</button>
         </div>
       </>
