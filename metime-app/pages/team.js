@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import ProfilePic from '../images/profilepic.png'
 import VrajPFP from '../images/VrajPFP.JPG'
+import EthanProfilePic from '../images/Ethan3.png'
 import { Josefin_Sans } from '@next/font/google'
 
 const inter = Josefin_Sans({ subsets: ['latin'] })
@@ -57,9 +58,9 @@ export default function AboutUs() {
 
                 <div className={inter.member}>
                     <Image
-                        src= {ProfilePic}
+                        src= {EthanProfilePic}
                         alt="Brief Logo"
-                        width={250}
+                        width={300}
                         height={325}
                         priority
                     />
