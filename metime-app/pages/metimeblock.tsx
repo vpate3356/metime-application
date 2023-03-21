@@ -1,6 +1,7 @@
 import ApiCalendar from "react-google-calendar-api";
 import React, { ReactNode, SyntheticEvent, useState } from "react";
 import { activity, activityPlace, address } from "./activities";
+import styles from '@/styles/Home.module.css'
 
 const config = {
   clientId:
@@ -86,13 +87,13 @@ const MeTimeBlock = () => {
 
   return (
     <div>
-      <div style={{ padding: "0.5em" }}>
-        <button onClick={(e) => handleItemClick(e, "Allow Calendar Access")}>Allow Calendar Access</button>
-        <button onClick={(e) => handleItemClick(e, "Switch User")}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <button onClick={(e) => handleItemClick(e, "Allow Calendar Access")} className={styles.button}>Allow Calendar Access</button>
+        <button onClick={(e) => handleItemClick(e, "Switch User")} className={styles.button}>
           Switch User
         </button>
       </div>
-      <div style={{ padding: "0.5em" }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <button
           onClick={(e) => {
             const startTime = randomStartTime();
@@ -123,7 +124,7 @@ const MeTimeBlock = () => {
               .catch((error: any) => {
                 console.log(error);
               });
-          }}
+          }} className={styles.button}
         >
           Create MeTime Block
         </button>
