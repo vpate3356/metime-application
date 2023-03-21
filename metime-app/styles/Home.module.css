@@ -117,6 +117,39 @@
   padding: 4rem 0;
 }
 
+.centerloginbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.centerloginbutton::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.centerloginbutton::after {
+  background: var(--primary-glow);
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.centerloginbutton::before,
+.centerloginbutton::after {
+  content: '';
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
@@ -333,9 +366,9 @@
 
 .button {
   background-color:black ;
-  border: 1px solid #1097da;
+  border: 1px solid #80B996;
   color: white;
-  padding: 12px 24px;
+  padding: 24px 48px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -345,7 +378,7 @@
 }
 
 .button:hover {
-  background-color: #1c99d7;;
+  background-color: #80B996;;
 }
 
 @keyframes rotate {

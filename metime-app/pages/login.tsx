@@ -124,10 +124,9 @@ export default function Login() {
           <title>MeTime Web App</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div>
-          
+        <center>        
           <button onClick={()=> signIn()} className={styles.button}>Sign In With Google</button>
-        </div>
+        </center>
       </>
     );
   }
