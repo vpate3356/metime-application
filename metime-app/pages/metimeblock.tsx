@@ -85,13 +85,13 @@ const MeTimeBlock = () => {
 
   return (
     <div>
-      <div style={{ padding: "0.5em" }}>
-        <button onClick={(e) => handleItemClick(e, "Allow Calendar Access")}>Allow Calendar Access</button>
-        <button onClick={(e) => handleItemClick(e, "Switch User")}>
+      <div style={{ height: "150px", width: "200px", display: "flex", justifyContent: "center", padding: "0.5em", margin: "0 auto", marginTop: "500px"}}>
+          <button style={{ fontSize: "1.2em", padding: "0.5em 1em" }} onClick={(e) => handleItemClick(e, "Allow Calendar Access")}>Allow Calendar Access</button>
+          <button style={{ fontSize: "1.2em", padding: "0.5em 1em" }} onClick={(e) => handleItemClick(e, "Switch User")}>
           Switch User
         </button>
       </div>
-      <div style={{ padding: "0.5em" }}>
+      <div style={{ height: "100px", width: "200px", display: "flex", justifyContent: "center", padding: "0.5em", margin: "0 auto" }}>
         <button
           onClick={(e) => {
             const startTime = randomStartTime();
