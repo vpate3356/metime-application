@@ -390,6 +390,25 @@
   background-color: #80B996;;
 }
 
+.buttonOne {
+  background-color:black ;
+  border: 1px solid #D4A561;
+  color: white;
+  padding: 48px 96px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25rem;
+
+}
+
+.buttonOne:hover {
+  background-color: #D4A561;;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(360deg);
