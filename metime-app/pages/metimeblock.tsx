@@ -1,5 +1,6 @@
 import ApiCalendar from "react-google-calendar-api";
 import React, { ReactNode, SyntheticEvent, useState } from "react";
+import { activity, activityPlace, address } from "./activities";
 
 const config = {
   clientId:
@@ -50,9 +51,9 @@ const MeTimeBlock = () => {
   const [events, setEvents] = useState([]);
   const [calendars, setCalendars] = useState([]);
   const handleItemClick = (event: SyntheticEvent<any>, name: string): void => {
-    if (name === "sign-in") {
+    if (name === "Allow Calendar Access") {
       apiCalendar.handleAuthClick();
-    } else if (name === "sign-out") {
+    } else if (name === "Switch User") {
       apiCalendar.handleSignoutClick();
     }
   };
@@ -109,6 +110,9 @@ const MeTimeBlock = () => {
                 timeZone: "America/Los_Angeles",
               },
               summary: "MeTime Block",
+              description: "Your MeTime activity today is: " + activity + "! MeTime suggests you go to: " + activityPlace,
+              location: address,
+              colorId: "2",
             };
 
             apiCalendar

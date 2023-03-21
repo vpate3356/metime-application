@@ -25,8 +25,8 @@ export default function AboutUs() {
                     <Image
                         src= {VrajPFP}
                         alt="profilepic.jpg"
-                        width={250}
-                        height={325}
+                        width={300}
+                        height={400}
                         priority
                     />
                     <h3>Vraj Patel</h3>
@@ -38,8 +38,8 @@ export default function AboutUs() {
                     <Image
                         src= {'/chima.png'}
                         alt="Brief Logo"
-                        width={250}
-                        height={325}
+                        width={300}
+                        height={400}
                         priority
                     />
                     <h3>Chima</h3>
@@ -49,8 +49,8 @@ export default function AboutUs() {
                 <div className={inter.member}>
                     <Image
                         src= {'/siraaj.png'}
-                        width={250}
-                        height={325}
+                        width={300}
+                        height={400}
                     />
                     <h3>Siraaj</h3>
                     <p>skudt001@ucr.edu</p>
@@ -60,8 +60,8 @@ export default function AboutUs() {
                     <Image
                         src= {EthanProfilePic}
                         alt="Brief Logo"
-                        width={300}
-                        height={325}
+                        width={350}
+                        height={400}
                         priority
                     />
                     <h3>Ethan </h3>
